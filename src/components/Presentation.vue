@@ -10,7 +10,8 @@
       </transition>
     </div>
     <div id="main">
-      <H1>Leonardo Neves - Application Developer</H1>
+      <H1 v-if="!portugues">Leonardo Neves - Application Developer</H1>
+      <H1 v-else>Leonardo Neves - Desenvolvedor de Aplicações</H1>
       <svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" aria-hidden="true" style="will-change: transform;"><path d="M28 6H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h24a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2zm-2.2 2L16 14.78 6.2 8zM4 24V8.91l11.43 7.91a1 1 0 0 0 1.14 0L28 8.91V24z"></path></svg>      
       <cv-link href="mailto:Leonardo.Neves@ibm.com">
         Leonardo.Neves@ibm.com
@@ -27,7 +28,12 @@
 </template>
 <script>
 export default {
-  name: "Presentation"
+  name: "Presentation",
+  props: {
+    portugues: {
+      type: Boolean
+    }
+  }
 };
 </script>
 <style>

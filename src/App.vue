@@ -1,22 +1,23 @@
 <template>
   <div id="app">
     <transition name="fade" appear>
-    <Header />
+    <Header @portuguese="changeLanguage"/>
     </transition>
     <transition name="fade1" appear>
-    <Presentation />
+    <Presentation :portugues="portugues"/>
     </transition>
     <transition name="fade2" appear>
-    <Profile />
+    <Profile :portugues="portugues" />
     </transition>
     <transition name="fade3" appear>
-    <Education />
+    <Education :portugues="portugues" />
     </transition>
     <transition name="fade4" appear>
-    <Experience />
+    <Experience :portugues="portugues" />
     </transition>
     <transition name="fade5" appear>
-    <cv-button @click="onClick">PDF Version</cv-button>
+    <cv-button v-if="portugues" @click="portuguesCV">Versão em PDF</cv-button>
+    <cv-button v-else @click="inglesCV">PDF Version</cv-button>
     </transition>
   </div>
 </template>
@@ -37,10 +38,21 @@ export default {
     Education,
     Experience
   },
+  data() {
+    return {
+      portugues: false
+    }
+  },
   methods: {
-    onClick() {
+    inglesCV() {
       window.open('/ResumeIT.pdf','_blank', 'fullscreen=yes');
     },
+    portuguesCV() {
+      window.open('/CVIT.pdf','_blank', 'fullscreen=yes');
+    },
+    changeLanguage(p) {
+      this.portugues = p
+    }
   }
 };
 </script>
