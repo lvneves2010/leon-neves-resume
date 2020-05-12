@@ -10,12 +10,12 @@
       <img v-if="!portugues"
         @click="language"
         style="border-radius: 3px; max-height: 10px;"
-        src="../assets/brazilFlag.webp"
+        src="../assets/brazilFlag.png"
         alt="portuguese selection" />
       <img v-if="portugues"
         @click="language"
         style="border-radius: 3px; max-height: 10px;"
-        src="../assets/britishFlag.webp"
+        src="../assets/britishFlag.png"
         alt="english selection" />
     </span>
   </cv-header>

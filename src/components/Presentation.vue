@@ -4,7 +4,7 @@
       <transition name="slide" appear>
       <img
         style="border-radius: 70px; max-height: 150px;"
-        src="../assets/profile-picture.webp"
+        src="../assets/profile-picture.png"
         alt="profile-picture"
       />
       </transition>
