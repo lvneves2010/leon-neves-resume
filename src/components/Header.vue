@@ -1,5 +1,5 @@
 <template>
-  <cv-header aria-label="Carbon header">
+  <cv-header class="header" aria-label="Carbon header">
     <cv-header-name v-if="!portugues" href="javascript:void(0)">
       Leonardo Neves Resume 
     </cv-header-name>
@@ -18,6 +18,7 @@
         src="../assets/britishFlag.png"
         alt="english selection" />
     </span>
+    <a class="link-blog" href="https://leon-neves-myblog.mybluemix.net/">Visitar Meu Blog ツ</a>
   </cv-header>
 </template>
 
@@ -37,3 +38,21 @@ export default {
   }
 };
 </script>
+<style>
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+
+  .link-blog {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 3rem;
+  }
+
+  .link-blog:hover {
+    text-decoration: none;
+    color: #fff;
+  }
+</style>

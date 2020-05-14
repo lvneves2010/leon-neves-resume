@@ -17,6 +17,7 @@
       text-align: start;"
     >Perfil</h1>
     <cv-list v-if="!portugues">
+      <cv-list-item><strong>Development of Professional Web Sites driven for Search Engines Opimization</strong></cv-list-item>
       <cv-list-item>Professional with over 20 years experience on development & management of state-of-the-art Technologies ranging from services in the digital media industry (such as Playstation 2 & 3) up to system development for Financial groups(Bradesco financeira) & health care Institutions;</cv-list-item>
       <cv-list-item>Project management using Agile (SCRUM) methods & Framework ITIL v3;</cv-list-item>
       <cv-list-item>Relevant experience in web development (e-commerce & institutional platforms),SPAs, CRUDs, CMS, APIs (REST) & portfolios;</cv-list-item>
@@ -30,6 +31,7 @@
       <cv-list-item>DevOps Management tools: Docker & Cloud Foundry; Kubernetes & Swarm;</cv-list-item>
     </cv-list>
     <cv-list v-else>
+      <cv-list-item><strong>Desenvolvimento de Web Sites Profissonais com enfase na Otimização para Ferramentas de Busca</strong></cv-list-item>
       <cv-list-item>Profissional com mais de 20 anos de experiência desenvolvendo e gerenciando Tecnologias de vanguarda desde serviços para indústria de mídias óticas (como Playstation 2 e 3) até o desenvolvimento de sistemas para instituições financeiras (Bradesco financeira) e sistemas de saúde;</cv-list-item>
       <cv-list-item>Gerenciamento de projetos utilizando métodos Agile (SCRUM) e Framework ITIL v3;</cv-list-item>
       <cv-list-item>Experiência relevante em desenvolvimento web (e-commerce e plataformas institucionais), SPAs, CRUDs, CMS, APIs (REST) e portfolios;</cv-list-item>
