@@ -46,7 +46,7 @@
       <cv-list-item>Vue JS 2 Guia completo – COD3R (2020);</cv-list-item>
       <cv-list-item>Curso de SEO 2020 – Mirago (2020);</cv-list-item>
       <cv-list-item>Python & Django with Visual Studio 2017– Microsoft Virtual Academy (2019);</cv-list-item>
-      <cv-list-item>ASP.NET Core 2.0 (Begginer – Intermediate – Advanced) - Microsoft Virtual Academy (2019);</cv-list-item>
+      <cv-list-item>ASP.NET Core 2.0 (Beginner – Intermediate – Advanced) - Microsoft Virtual Academy (2019);</cv-list-item>
       <cv-list-item>ITIL v3 – Fundação Bradesco – (2018);</cv-list-item>
       <cv-list-item>Project management – Veduca – USP – (2018);</cv-list-item>
       <cv-list-item>Team management –FM2S – (2018);</cv-list-item>

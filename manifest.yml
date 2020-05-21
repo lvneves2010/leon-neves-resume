@@ -2,5 +2,6 @@
 applications:
   - name: leon-neves-resume
     memory: 24M
-    buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+    buildpacks:
+    - staticfile_buildpack
     Cache-Control: max-age=31536000

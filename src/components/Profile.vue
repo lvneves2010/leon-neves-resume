@@ -17,7 +17,7 @@
       text-align: start;"
     >Perfil</h1>
     <cv-list v-if="!portugues">
-      <cv-list-item><strong>Development of Professional Web Sites driven for Search Engines Opimization</strong></cv-list-item>
+      <cv-list-item><strong>Development of Professional Web Sites driven for Search Engines Opitmization</strong></cv-list-item>
       <cv-list-item>Professional with over 20 years experience on development & management of state-of-the-art Technologies ranging from services in the digital media industry (such as Playstation 2 & 3) up to system development for Financial groups(Bradesco financeira) & health care Institutions;</cv-list-item>
       <cv-list-item>Project management using Agile (SCRUM) methods & Framework ITIL v3;</cv-list-item>
       <cv-list-item>Relevant experience in web development (e-commerce & institutional platforms),SPAs, CRUDs, CMS, APIs (REST) & portfolios;</cv-list-item>

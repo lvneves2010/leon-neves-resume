@@ -10,12 +10,12 @@
       <img v-if="!portugues"
         @click="language"
         style="border-radius: 3px; max-height: 10px;"
-        src="../assets/brazilFlag.png"
+        src="../assets/brazilFlagS.png"
         alt="portuguese selection" />
       <img v-if="portugues"
         @click="language"
         style="border-radius: 3px; max-height: 10px;"
-        src="../assets/britishFlag.png"
+        src="../assets/britishFlagS.png"
         alt="english selection" />
     </span>
     <a class="link-blog" href="https://leon-neves-myblog.mybluemix.net/">Visitar Meu Blog ツ</a>
